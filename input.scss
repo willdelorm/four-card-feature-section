@@ -21,7 +21,7 @@ $font-bold: 600 15px/1.5 "Poppins", sans-serif;
 body {
   width: 100vw;
   min-height: 100vh;
-  padding: 8%;
+  padding: 0 8%;
 
   background-color: $color-white;
   color: $color-grey-400;
@@ -29,7 +29,7 @@ body {
 }
 
 header {
-  margin-bottom: 3em;
+  margin: 3em 0;
 
   text-align: center;
 
@@ -91,6 +91,8 @@ main {
 }
 
 footer {
+  margin-bottom: 1em;
+
   .attribution {
     text-align: center;
   }
@@ -114,7 +116,7 @@ footer {
 
   header {
     max-width: 35em;
-    margin: 0 auto 3em;
+    margin: 3em auto;
 
     h1,
     .subtitle {

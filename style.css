@@ -8,14 +8,14 @@
 body {
   width: 100vw;
   min-height: 100vh;
-  padding: 8%;
+  padding: 0 8%;
   background-color: hsl(0, 0%, 100%);
   color: hsl(212, 6%, 44%);
   font: 400 15px/1.5 "Poppins", sans-serif;
 }
 
 header {
-  margin-bottom: 3em;
+  margin: 3em 0;
   text-align: center;
 }
 header h1 {
@@ -64,6 +64,9 @@ main article img {
   align-self: flex-end;
 }
 
+footer {
+  margin-bottom: 1em;
+}
 footer .attribution {
   text-align: center;
 }
@@ -79,10 +82,11 @@ footer a:hover {
 @media screen and (min-width: 769px) {
   body {
     max-width: 1200px;
+    margin: auto;
   }
   header {
     max-width: 35em;
-    margin: 0 auto 3em;
+    margin: 3em auto;
   }
   header h1,
   header .subtitle {
